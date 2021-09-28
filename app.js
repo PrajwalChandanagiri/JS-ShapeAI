@@ -1,15 +1,7 @@
-console.log("heloo World")
-console.warn("hello Warning")
-console.error(typeof"hello Error")
+var arr= [1,2,3,4]
 
-//Numbers
-console.log(typeof 1)
-console.log(typeof 1.2)
-console.log(typeof -1)
-console.log(typeof 12365466646546)
-console.log(typeof -1.1)
 
-//boolen
-console.log(typeof true)
-console.log(typeof false)
-
+console.log(arr)
+arr.push(5)
+console.log(arr)
+console.log(arr.length)
